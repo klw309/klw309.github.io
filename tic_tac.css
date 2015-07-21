@@ -3,6 +3,11 @@ body {
 	font-family: 'Alegreya', serif;
 }
 
+#board {
+	font-family: 'Alegreya', serif;
+	font-size: 80px;
+	text-align: center;
+}
 h1 {
 	font-size: 100px;
 	position: absolute;
@@ -14,7 +19,7 @@ h1 {
 	width: 16em;
 	height: 2em;
 	position: absolute;
-	right: 90px;
+	right: 260px;
 	top: 350px;
 
 }
