@@ -1,0 +1,191 @@
+body {
+	background: #white;
+	font-family: 'Alegreya', serif;
+}
+
+h1 {
+	font-size: 100px;
+	position: absolute;
+	top: 50px;
+	left: 398px;
+}
+
+#form {
+	width: 16em;
+	height: 2em;
+	position: absolute;
+	right: 90px;
+	top: 350px;
+
+}
+
+input {
+	display: block;
+	font-family: 'Alegreya', serif;
+	font-size: 25px;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+#zero {
+	width: 150px;
+	height: 150px;
+	background-color: #3ECCCC;
+	position: absolute;
+	top: 250px;
+	left: 400px;
+
+}
+
+#zero:hover {
+	background-color: #CCFFFF;
+}
+
+#one {
+	width: 150px;
+	height: 150px;
+	border-left: 15px;
+	border-left-style: solid
+	;
+	border-left-color: white;
+	background-color: #3ECCCC;
+	position: absolute;
+	top: 250px;
+	left: 550px;
+}
+
+#one:hover {
+	background-color: #CCFFFF;
+}
+
+#two {
+	
+	width: 150px;
+	height: 150px;
+	border-left: 15px;
+	border-left-style: solid;
+	border-left-color: white;
+	background-color: #3ECCCC;
+	position: absolute;
+	top: 250px;
+	left: 700px;
+}
+
+#two:hover {
+	background-color: #CCFFFF;
+}
+
+#three {
+	
+	width: 150px;
+	height: 150px;
+	border-top: 15px;
+	border-top-style: solid;
+	border-top-color: white;
+	background-color: #3ECCCC;
+	position: absolute;
+	top: 400px;
+	left: 400px;
+}
+
+#three:hover {
+	background-color: #CCFFFF;
+}
+
+#four {
+	
+	width: 150px;
+	height: 150px;
+	border-top: 15px;
+	border-top-style: solid;
+	border-top-color: white;
+	border-left: 15px;
+	border-left-style: solid;
+	border-left-color: white;
+	background-color: #3ECCCC;
+	position: absolute;
+	top: 400px;
+	left: 550px;
+}
+
+#four:hover {
+	background-color: #CCFFFF;
+}
+
+#five {
+	
+	width: 150px;
+	height: 150px;
+	border-top: 15px;
+	border-top-style: solid;
+	border-top-color: white;
+	border-left: 15px;
+	border-left-style: solid;
+	border-left-color: white;
+	background-color: #3ECCCC;
+	position: absolute;
+	top: 400px;
+	left: 700px;
+}
+
+#five:hover {
+	background-color: #CCFFFF;
+}
+
+#six {
+	
+	width: 150px;
+	height: 150px;
+	border-top: 15px;
+	border-top-style: solid;
+	border-top-color: white;
+	background-color: #3ECCCC;
+	position: absolute;
+	top: 550px;
+	left: 400px;
+}
+
+#six:hover {
+	background-color: #CCFFFF;
+}
+
+#seven {
+	
+	width: 150px;
+	height: 150px;
+	border-top: 15px;
+	border-top-style: solid;
+	border-top-color: white;
+	border-left: 15px;
+	border-left-style: solid;
+	border-left-color: white;
+	background-color: #3ECCCC;
+	position: absolute;
+	top: 550px;
+	left: 550px;
+}
+
+#seven:hover {
+	background-color: #CCFFFF;
+}
+
+#eight{
+	
+	width: 150px;
+	height: 150px;
+	border-top: 15px;
+	border-top-style: solid;
+	border-top-color: white;
+	border-left: 15px;
+	border-left-style: solid;
+	border-left-color: white;
+	background-color: #3ECCCC;
+	position: absolute;
+	top: 550px;
+	left: 700px;
+}
+
+#eight:hover {
+	background-color: #CCFFFF;
+}

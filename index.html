@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <link href='http://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <link href="tic_tac.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="board.js" type="text/javascript"></script>
+    <script src="miniMax.js" type="text/javascript"></script>
+    <script src="tic_tac.js" type="text/javascript"></script>
+    <title>Tic Tac Toe</title>
 </head>
 <body>
-	<h1>"hello world"</h1>
-	
+<div class="container">
+    <h1>Tic Tac Toe</h1>
+
+    <div id="playerSetup">
+        <form id="form" onsubmit="return false;">
+            <input id="userInput" type="text" placeholder="Please enter your name"/>
+            <input type="submit" id="userSubmit"/>
+        </form>
+    </div>
+    <div id="board">
+        <!--          Top            -->
+        <div class="top left" id="zero">&nbsp;</div>
+        <div class="top middle" id="one">&nbsp;</div>
+        <div class="top right" id="two">&nbsp;</div>
+
+        <!--          Middle        -->
+        <div class="middle left" id="three">&nbsp;</div>
+        <div class="middle middle" id="four">&nbsp;</div>
+        <div class="middle right" id="five">&nbsp;</div>
+
+        <!--          Bottom          -->
+        <div class="bottom left" id="six">&nbsp;</div>
+        <div class="bottom middle" id="seven">&nbsp;</div>
+        <div class="bottom right" id="eight">&nbsp;</div>
+    </div>
+</div>
 </body>
 </html>
